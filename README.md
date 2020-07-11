@@ -36,7 +36,7 @@ python3 synthesis.py --step 300000
 to generate any utterances you wish to. The generated utterances will be put in the ``results/`` directory.
 
 Here is a generated spectrogram of the sentence "Printing, in the only sense with which we are at present concerned, differs from most if not from all the arts and crafts represented in the Exhibition"  
-![](./synth/LJSpeech/step_300000.png)
+![](./results/step_300000.png)
 
 # Training
 
@@ -128,8 +128,8 @@ There are several differences between my implementation and the paper.
 # References
 - [FastSpeech 2: Fast and High-Quality End-to-End Text to Speech](https://arxiv.org/abs/2006.04558), Y. Ren, *et al*.
 - [FastSpeech: Fast, Robust and Controllable Text to Speech](https://arxiv.org/abs/1905.09263), Y. Ren, *et al*.
-- [xcmyz's PyTorch FastSpeech implementation](https://github.com/xcmyz/FastSpeech)
-- [rishikksh20's PyTorch FastSpeech2 implementation](https://github.com/rishikksh20/FastSpeech2)
-- [TensorSpeech's TensorFLow FastSpeech2 implementation](https://github.com/TensorSpeech/TensorflowTTS)
-- [NVIDIA's PyTorch WaveGlow implementation](https://github.com/NVIDIA/waveglow)
-- [seungwonpark's PYTorch MelGAN implementation](https://github.com/seungwonpark/melgan)
+- [xcmyz's FastSpeech implementation](https://github.com/xcmyz/FastSpeech)
+- [rishikksh20's FastSpeech2 implementation](https://github.com/rishikksh20/FastSpeech2)
+- [TensorSpeech's FastSpeech2 implementation](https://github.com/TensorSpeech/TensorflowTTS)
+- [NVIDIA's WaveGlow implementation](https://github.com/NVIDIA/waveglow)
+- [seungwonpark's MelGAN implementation](https://github.com/seungwonpark/melgan)
